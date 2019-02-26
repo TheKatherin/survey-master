@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/scripts.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="container h-100">
+      <div class="row justify-content-center align-items-center h-100">
+        <div class="col col-sm-8 col-md-8 col-lg-8 col-xl-8 jumbotron">
+          <form id="survey_form" class="" action="index.html" method="post">
+            <div class="form-group">
+              <div id="response">
+                <p id="question_0" class="info">Why do you want to learn programming?</p>
+              </div>
+              <div id="answer_list">
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer1" value="1">
+                  <label class="form-check-label" for="answer1">Just for fun</label>
+                </div>
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer2" value="2">
+                  <label class="form-check-label" for="answer2">I'm interested</label>
+                </div>
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer3" value="3">
+                  <label class="form-check-label" for="answer3">Improve myself</label>
+                </div>
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer4" value="4">
+                  <label class="form-check-label" for="answer4">Make money</label>
+                </div>
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer5" value="5">
+                  <label class="form-check-label" for="answer5">For my kids</label>
+                </div>
+                <div class="answer form-check">
+                  <input class="form-check-input" type="radio" name="answer6" value="6">
+                  <label class="form-check-label" for="answer6">I don't know, just pick one for me</label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn btn-info btn-lg">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
